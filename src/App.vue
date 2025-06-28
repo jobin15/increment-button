@@ -1,11 +1,12 @@
 <template>
-  <div><h1>increment button</h1>
+  <div>
+    <h1>increment button</h1>
     <MyCounter />
   </div>
 </template>
 
 <script setup>
-import MyCounter from './components/MyCounter.vue';
+import MyCounter from "./components/MyCounter.vue";
 </script>
 
 <style lang="scss">
